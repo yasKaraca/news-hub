@@ -76,7 +76,7 @@ export default class Filters extends Vue {
         method: 'get',
         url: url
       }).then((response) => {
-        console.log(response)
+        this.$emit('data', response)
       })
     }
     created() {
