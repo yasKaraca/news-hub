@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import Filters from '@/components/Filters.vue';
+import Filters from '@/components/Filters/Filters.vue';
 
 @Component({
   components: {
