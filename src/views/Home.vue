@@ -1,14 +1,16 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <Filters />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+import Filters from '@/components/Filters.vue';
 
 @Component({
   components: {
+    Filters
   },
 })
 export default class Home extends Vue {}
