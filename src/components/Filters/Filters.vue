@@ -8,7 +8,7 @@
       >
         <v-select
           :items="Countries"
-          item-text="label"
+          item-text="name"
           item-value="code"
           label="Country"
           v-model="CountryValue"
@@ -48,9 +48,8 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import { Countries } from './countries';
-import { Categories } from './categories';
+import { Component, Vue, Prop } from 'vue-property-decorator';
+import { CountryInterface } from './countries';
 import axios from 'axios'
 
 @Component({
@@ -58,11 +57,12 @@ import axios from 'axios'
   },
 })
 export default class Filters extends Vue {
-    Countries: object = Countries
-    Categories: any = Categories
-    CountryValue: string = Countries[Countries.length-2].code
+    CountryValue = '';
     CategoryValue = ''
     QueryValue = ''
+    @Prop() Countries?: Array<CountryInterface>;
+    @Prop() Categories!: Array<string>;
+    @Prop() DefaultCountry!: string;
     getNews () {
       let params = `?country=${this.CountryValue}`
       if (this.CategoryValue) {
@@ -80,7 +80,8 @@ export default class Filters extends Vue {
       })
     }
     created() {
-      this.getNews()
+      this.CountryValue = this.DefaultCountry;
+      this.getNews();
     }
 }
 </script>
