@@ -11,6 +11,7 @@ import Filters from '@/components/Filters/Filters.vue';
 import Results from '@/components/Results.vue';
 import { Country, CountryInterface, Codes, Names } from "@/components/Filters/countries";
 import { Categories } from "@/components/Filters/categories";
+import { NewsInterface } from "@/components/Filters/news";
 
 @Component({
   components: {
@@ -19,11 +20,11 @@ import { Categories } from "@/components/Filters/categories";
   },
 })
 export default class Home extends Vue {
-  news: any = {}
+  news: Array<NewsInterface> = [];
   countries: Array<CountryInterface> = [];
   categories: Array<string> = Categories;
   defaultCountry: string = Codes[Codes.length-2]; // =us
-  getData(data: any) {
+  getData(data:  Array<NewsInterface>) {
     this.news = data
   }
   created() {
