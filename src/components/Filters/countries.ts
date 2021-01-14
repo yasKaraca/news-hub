@@ -1,115 +1,115 @@
 export enum CountryCodes {
-    ARGENTINA       = 'ar',
-    AUSTRALIA       = 'au',
-    AUSTRIA         = 'at',
-    BELGIUM         = 'be',
-    BRAZIL          = 'br',
-    BULGARIA        = 'bg',
-    CANADA          = 'ca',
-    CHINA           = 'cn',
-    COLOMBIA        = 'co',
-    CUBA            = 'cu',
-    CZECH_REPUBLIC  = 'cz',
-    EGYPT           = 'eg',
-    FRANCE          = 'fr',
-    GERMANY         = 'de',
-    GREECE          = 'gr',
-    HONG_KONG       = 'hk',
-    HUNGARY         = 'hu',
-    INDIA           = 'in',
-    INDONESIA       = 'id',
-    IRELAND         = 'ie',
-    ISRAEL          = 'il',
-    ITALY           = 'it',
-    JAPAN           = 'jp',
-    LATVIA          = 'lv',
-    LITHUANIA       = 'lt',
-    MALAYSIA        = 'my',
-    MEXICO          = 'mx',
-    MOROCCO         = 'ma',
-    NETHERLANDS     = 'nl',
-    NEW_ZEALAND     = 'nz',
-    NIGERIA         = 'ng',
-    NORWAY          = 'no',
-    PHILIPPINES     = 'ph',
-    POLAND          = 'pl',
-    PORTUGAL        = 'pt',
-    ROMANIA         = 'ro',
-    RUSSIA          = 'ru',
-    SAUDI_ARABIA    = 'sa',
-    SERBIA          = 'rs',
-    SINGAPORE       = 'sg',
-    SLOVAKIA        = 'sk',
-    SLOVENIA        = 'si',
-    SOUTH_AFRICA    = 'za',
-    SOUTH_KOREA     = 'kr',
-    SWEDEN          = 'se',
-    SWITZERLAND     = 'ch',
-    TAIWAN          = 'tw',
-    THAILAND        = 'th',
-    TURKEY          = 'tr',
-    UAE             = 'ae',
-    UKRAINE         = 'ua',
-    UNITED_KINGDOM  = 'gb',
-    UNITED_STATES   = 'us',
-    VENEZUELA       = 've'
+    ARGENTINA = 'ar',
+    AUSTRALIA = 'au',
+    AUSTRIA = 'at',
+    BELGIUM = 'be',
+    BRAZIL = 'br',
+    BULGARIA = 'bg',
+    CANADA = 'ca',
+    CHINA = 'cn',
+    COLOMBIA = 'co',
+    CUBA = 'cu',
+    CZECH_REPUBLIC = 'cz',
+    EGYPT = 'eg',
+    FRANCE = 'fr',
+    GERMANY = 'de',
+    GREECE = 'gr',
+    HONG_KONG = 'hk',
+    HUNGARY = 'hu',
+    INDIA = 'in',
+    INDONESIA = 'id',
+    IRELAND = 'ie',
+    ISRAEL = 'il',
+    ITALY = 'it',
+    JAPAN = 'jp',
+    LATVIA = 'lv',
+    LITHUANIA = 'lt',
+    MALAYSIA = 'my',
+    MEXICO = 'mx',
+    MOROCCO = 'ma',
+    NETHERLANDS = 'nl',
+    NEW_ZEALAND = 'nz',
+    NIGERIA = 'ng',
+    NORWAY = 'no',
+    PHILIPPINES = 'ph',
+    POLAND = 'pl',
+    PORTUGAL = 'pt',
+    ROMANIA = 'ro',
+    RUSSIA = 'ru',
+    SAUDI_ARABIA = 'sa',
+    SERBIA = 'rs',
+    SINGAPORE = 'sg',
+    SLOVAKIA = 'sk',
+    SLOVENIA = 'si',
+    SOUTH_AFRICA = 'za',
+    SOUTH_KOREA = 'kr',
+    SWEDEN = 'se',
+    SWITZERLAND = 'ch',
+    TAIWAN = 'tw',
+    THAILAND = 'th',
+    TURKEY = 'tr',
+    UAE = 'ae',
+    UKRAINE = 'ua',
+    UNITED_KINGDOM = 'gb',
+    UNITED_STATES = 'us',
+    VENEZUELA = 've'
 }
 
 export enum CountryNames {
-    ARGENTINA       = 'Argentina',
-    AUSTRALIA       = 'Australia',
-    AUSTRIA         = 'Austria',
-    BELGIUM         = 'Belgium',
-    BRAZIL          = 'Brazil',
-    BULGARIA        = 'Bulgaria',
-    CANADA          = 'Canada',
-    CHINA           = 'China',
-    COLOMBIA        = 'Colombia',
-    CUBA            = 'Cuba',
-    CZECH_REPUBLIC  = 'Czech Republic',
-    EGYPT           = 'Egypt',
-    FRANCE          = 'France',
-    GERMANY         = 'Germany',
-    GREECE          = 'Greece',
-    HONG_KONG       = 'Hong Kong',
-    HUNGARY         = 'Hungary',
-    INDIA           = 'India',
-    INDONESIA       = 'Indonesia',
-    IRELAND         = 'Ireland',
-    ISRAEL          = 'Israel',
-    ITALY           = 'Italy',
-    JAPAN           = 'Japan',
-    LATVIA          = 'Latvia',
-    LITHUANIA       = 'Lithuania',
-    MALAYSIA        = 'Malaysia',
-    MEXICO          = 'Mexico',
-    MOROCCO         = 'Morocco',
-    NETHERLANDS     = 'Netherlands',
-    NEW_ZEALAND     = 'New Zealand',
-    NIGERIA         = 'Nigeria',
-    NORWAY          = 'Norway',
-    PHILIPPINES     = 'Philippines',
-    POLAND          = 'Poland',
-    PORTUGAL        = 'Portugal',
-    ROMANIA         = 'Romania',
-    RUSSIA          = 'Russia',
-    SAUDI_ARABIA    = 'Saudi Arabia',
-    SERBIA          = 'Serbia',
-    SINGAPORE       = 'Singapore',
-    SLOVAKIA        = 'Slovakia',
-    SLOVENIA        = 'Slovenia',
-    SOUTH_AFRICA    = 'South Africa',
-    SOUTH_KOREA     = 'South Korea',
-    SWEDEN          = 'Sweden',
-    SWITZERLAND     = 'Switzerland',
-    TAIWAN          = 'Taiwan',
-    THAILAND        = 'Thailand',
-    TURKEY          = 'Turkey',
-    UAE             = 'UAE',
-    UKRAINE         = 'UKRAINE',
-    UNITED_KINGDOM  = 'United Kingdom',
-    UNITED_STATES   = 'United States',
-    VENEZUELA       = 'Venezuela'
+    ARGENTINA = 'Argentina',
+    AUSTRALIA = 'Australia',
+    AUSTRIA = 'Austria',
+    BELGIUM = 'Belgium',
+    BRAZIL = 'Brazil',
+    BULGARIA = 'Bulgaria',
+    CANADA = 'Canada',
+    CHINA = 'China',
+    COLOMBIA = 'Colombia',
+    CUBA = 'Cuba',
+    CZECH_REPUBLIC = 'Czech Republic',
+    EGYPT = 'Egypt',
+    FRANCE = 'France',
+    GERMANY = 'Germany',
+    GREECE = 'Greece',
+    HONG_KONG = 'Hong Kong',
+    HUNGARY = 'Hungary',
+    INDIA = 'India',
+    INDONESIA = 'Indonesia',
+    IRELAND = 'Ireland',
+    ISRAEL = 'Israel',
+    ITALY = 'Italy',
+    JAPAN = 'Japan',
+    LATVIA = 'Latvia',
+    LITHUANIA = 'Lithuania',
+    MALAYSIA = 'Malaysia',
+    MEXICO = 'Mexico',
+    MOROCCO = 'Morocco',
+    NETHERLANDS = 'Netherlands',
+    NEW_ZEALAND = 'New Zealand',
+    NIGERIA = 'Nigeria',
+    NORWAY = 'Norway',
+    PHILIPPINES = 'Philippines',
+    POLAND = 'Poland',
+    PORTUGAL = 'Portugal',
+    ROMANIA = 'Romania',
+    RUSSIA = 'Russia',
+    SAUDI_ARABIA = 'Saudi Arabia',
+    SERBIA = 'Serbia',
+    SINGAPORE = 'Singapore',
+    SLOVAKIA = 'Slovakia',
+    SLOVENIA = 'Slovenia',
+    SOUTH_AFRICA = 'South Africa',
+    SOUTH_KOREA = 'South Korea',
+    SWEDEN = 'Sweden',
+    SWITZERLAND = 'Switzerland',
+    TAIWAN = 'Taiwan',
+    THAILAND = 'Thailand',
+    TURKEY = 'Turkey',
+    UAE = 'UAE',
+    UKRAINE = 'UKRAINE',
+    UNITED_KINGDOM = 'United Kingdom',
+    UNITED_STATES = 'United States',
+    VENEZUELA = 'Venezuela'
 }
 
 export const Countries = [
@@ -126,211 +126,211 @@ export const Countries = [
         label: CountryNames.AUSTRIA
     },
     {
-        code: CountryCodes.BELGIUM ,
+        code: CountryCodes.BELGIUM,
         label: CountryNames.BELGIUM
     },
     {
-        code: CountryCodes.BRAZIL ,
+        code: CountryCodes.BRAZIL,
         label: CountryNames.BRAZIL
     },
     {
-        code: CountryCodes.BULGARIA ,
+        code: CountryCodes.BULGARIA,
         label: CountryNames.BULGARIA
     },
     {
-        code: CountryCodes.CANADA ,
+        code: CountryCodes.CANADA,
         label: CountryNames.CANADA
     },
     {
-        code: CountryCodes.CHINA ,
+        code: CountryCodes.CHINA,
         label: CountryNames.CHINA
     },
     {
-        code: CountryCodes.COLOMBIA ,
+        code: CountryCodes.COLOMBIA,
         label: CountryNames.COLOMBIA
     },
     {
-        code: CountryCodes.CUBA ,
+        code: CountryCodes.CUBA,
         label: CountryNames.CUBA
     },
     {
-        code: CountryCodes.CZECH_REPUBLIC ,
+        code: CountryCodes.CZECH_REPUBLIC,
         label: CountryNames.CZECH_REPUBLIC
     },
     {
-        code: CountryCodes.CZECH_REPUBLIC ,
+        code: CountryCodes.CZECH_REPUBLIC,
         label: CountryNames.CZECH_REPUBLIC
     },
     {
-        code: CountryCodes.EGYPT ,
+        code: CountryCodes.EGYPT,
         label: CountryNames.EGYPT
     },
     {
-        code: CountryCodes.FRANCE ,
+        code: CountryCodes.FRANCE,
         label: CountryNames.FRANCE
     },
     {
-        code: CountryCodes.GERMANY ,
+        code: CountryCodes.GERMANY,
         label: CountryNames.GERMANY
     },
     {
-        code: CountryCodes.GREECE ,
+        code: CountryCodes.GREECE,
         label: CountryNames.GREECE
     },
     {
-        code: CountryCodes.HONG_KONG ,
+        code: CountryCodes.HONG_KONG,
         label: CountryNames.HONG_KONG
     },
     {
-        code: CountryCodes.HUNGARY ,
+        code: CountryCodes.HUNGARY,
         label: CountryNames.HUNGARY
     },
     {
-        code: CountryCodes.INDIA ,
+        code: CountryCodes.INDIA,
         label: CountryNames.INDIA
     },
     {
-        code: CountryCodes.INDONESIA ,
+        code: CountryCodes.INDONESIA,
         label: CountryNames.INDONESIA
     },
     {
-        code: CountryCodes.IRELAND ,
+        code: CountryCodes.IRELAND,
         label: CountryNames.IRELAND
     },
     {
-        code: CountryCodes.ISRAEL ,
+        code: CountryCodes.ISRAEL,
         label: CountryNames.ISRAEL
     },
     {
-        code: CountryCodes.ITALY ,
+        code: CountryCodes.ITALY,
         label: CountryNames.ITALY
     },
     {
-        code: CountryCodes.JAPAN ,
+        code: CountryCodes.JAPAN,
         label: CountryNames.JAPAN
     },
     {
-        code: CountryCodes.LATVIA ,
+        code: CountryCodes.LATVIA,
         label: CountryNames.LATVIA
     },
     {
-        code: CountryCodes.LITHUANIA ,
+        code: CountryCodes.LITHUANIA,
         label: CountryNames.LITHUANIA
     },
     {
-        code: CountryCodes.MALAYSIA ,
+        code: CountryCodes.MALAYSIA,
         label: CountryNames.MALAYSIA
     },
     {
-        code: CountryCodes.MEXICO ,
+        code: CountryCodes.MEXICO,
         label: CountryNames.MEXICO
     },
     {
-        code: CountryCodes.MOROCCO ,
+        code: CountryCodes.MOROCCO,
         label: CountryNames.MOROCCO
     },
     {
-        code: CountryCodes.NETHERLANDS ,
+        code: CountryCodes.NETHERLANDS,
         label: CountryNames.NETHERLANDS
     },
     {
-        code: CountryCodes.NEW_ZEALAND ,
+        code: CountryCodes.NEW_ZEALAND,
         label: CountryNames.NEW_ZEALAND
     },
     {
-        code: CountryCodes.NIGERIA ,
+        code: CountryCodes.NIGERIA,
         label: CountryNames.NIGERIA
     },
     {
-        code: CountryCodes.NORWAY ,
+        code: CountryCodes.NORWAY,
         label: CountryNames.NORWAY
     },
     {
-        code: CountryCodes.PHILIPPINES ,
+        code: CountryCodes.PHILIPPINES,
         label: CountryNames.PHILIPPINES
     },
     {
-        code: CountryCodes.POLAND ,
+        code: CountryCodes.POLAND,
         label: CountryNames.POLAND
     },
     {
-        code: CountryCodes.PORTUGAL ,
+        code: CountryCodes.PORTUGAL,
         label: CountryNames.PORTUGAL
     },
     {
-        code: CountryCodes.ROMANIA ,
+        code: CountryCodes.ROMANIA,
         label: CountryNames.ROMANIA
     },
     {
-        code: CountryCodes.RUSSIA ,
+        code: CountryCodes.RUSSIA,
         label: CountryNames.RUSSIA
     },
     {
-        code: CountryCodes.SAUDI_ARABIA ,
+        code: CountryCodes.SAUDI_ARABIA,
         label: CountryNames.SAUDI_ARABIA
     },
     {
-        code: CountryCodes.SERBIA ,
+        code: CountryCodes.SERBIA,
         label: CountryNames.SERBIA
     },
     {
-        code: CountryCodes.SINGAPORE ,
+        code: CountryCodes.SINGAPORE,
         label: CountryNames.SINGAPORE
     },
     {
-        code: CountryCodes.SLOVAKIA ,
+        code: CountryCodes.SLOVAKIA,
         label: CountryNames.SLOVAKIA
     },
     {
-        code: CountryCodes.SLOVENIA ,
+        code: CountryCodes.SLOVENIA,
         label: CountryNames.SLOVENIA
     },
     {
-        code: CountryCodes.SOUTH_AFRICA ,
+        code: CountryCodes.SOUTH_AFRICA,
         label: CountryNames.SOUTH_AFRICA
     },
     {
-        code: CountryCodes.SOUTH_KOREA ,
+        code: CountryCodes.SOUTH_KOREA,
         label: CountryNames.SOUTH_KOREA
     },
     {
-        code: CountryCodes.SWEDEN ,
+        code: CountryCodes.SWEDEN,
         label: CountryNames.SWEDEN
     },
     {
-        code: CountryCodes.SWITZERLAND ,
+        code: CountryCodes.SWITZERLAND,
         label: CountryNames.SWITZERLAND
     },
     {
-        code: CountryCodes.TAIWAN ,
+        code: CountryCodes.TAIWAN,
         label: CountryNames.TAIWAN
     },
     {
-        code: CountryCodes.THAILAND ,
+        code: CountryCodes.THAILAND,
         label: CountryNames.THAILAND
     },
     {
-        code: CountryCodes.TURKEY ,
+        code: CountryCodes.TURKEY,
         label: CountryNames.TURKEY
     },
     {
-        code: CountryCodes.UAE ,
+        code: CountryCodes.UAE,
         label: CountryNames.UAE
     },
     {
-        code: CountryCodes.UKRAINE ,
+        code: CountryCodes.UKRAINE,
         label: CountryNames.UKRAINE
     },
     {
-        code: CountryCodes.UNITED_KINGDOM ,
+        code: CountryCodes.UNITED_KINGDOM,
         label: CountryNames.UNITED_KINGDOM
     },
     {
-        code: CountryCodes.UNITED_STATES ,
+        code: CountryCodes.UNITED_STATES,
         label: CountryNames.UNITED_STATES
     },
     {
-        code: CountryCodes.VENEZUELA ,
+        code: CountryCodes.VENEZUELA,
         label: CountryNames.VENEZUELA
     },
 ];
@@ -390,9 +390,9 @@ export const Codes = [
     'gb',
     'us',
     've'
-    ];
-    
-    export const Names = [
+];
+
+export const Names = [
     'Argentina',
     'Australia',
     'Austria',
@@ -447,4 +447,35 @@ export const Codes = [
     'United Kingdom',
     'United States',
     'Venezuela'
-    ];
+];
+
+export interface CountryInterface {
+    code: string;
+    name: string;
+}
+
+export class Country implements CountryInterface {
+    private _code: string;
+    private _name: string;
+
+    get code() {
+        return this._code;
+    }
+
+    set code(countryCode: string) {
+        this._code = countryCode;
+    }
+
+    get name() {
+        return this._name;
+    }
+
+    set name(countryName: string) {
+        this._name = countryName;
+    }
+
+    constructor(countryData: CountryInterface) {
+        this._code = countryData.code;
+        this._name = countryData.name;
+    }
+}
