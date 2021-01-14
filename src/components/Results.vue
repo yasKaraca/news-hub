@@ -52,7 +52,7 @@ export default class Results extends Vue {
   @Prop() private data!: any;
   @Watch("data", { deep: true })
   onChange(v: any) {
-    this.list = v.data.articles;
+    this.list = v;
   }
   handleDetails(item: any) {
     this.dialog = true;
