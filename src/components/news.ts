@@ -13,3 +13,17 @@ export interface NewsSourceInterface {
     id?: string;
     name?: string;
 }
+
+export const emptyNews: NewsInterface = {
+    author : "",
+    content : "",
+    description : "",
+    publishedAt : "",
+    source: {
+        id: "",
+        name: ""
+    },
+    title : "",
+    url : "",
+    urlToImage : "",
+}

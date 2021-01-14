@@ -1,26 +1,6 @@
 <template>
   <v-container class="grey lighten-5">
-    <v-dialog v-model="dialog" max-width="500">
-      <v-card>
-        <v-img :src="newsDetails.urlToImage" height="300px"></v-img>
-        <v-card-title class="headline grey lighten-2">
-          {{ newsDetails.title }}
-        </v-card-title>
-        <v-spacer></v-spacer>
-        <v-card-subtitle>{{ newsDetails.description }}</v-card-subtitle>
-
-        <v-divider></v-divider>
-
-        <v-card-actions>
-          <v-btn color="primary" text :href="newsDetails.url" target="_blank"
-            >Read full article</v-btn
-          >
-          <v-spacer></v-spacer>
-          <v-btn color="primary" text @click="dialog = false"> Close </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-dialog>
-
+    <Modal :ShowModal="showModal" :NewsDetails="modalData" @closeModal="handleModal"/>
     <v-row>
       <v-col v-for="(item, index) in list" :key="index" cols="6" sm="3">
         <v-card class="pa-2" outlined tile>
@@ -43,20 +23,39 @@
 
 <script lang="ts">
 import { Component, Vue, Prop, Watch } from "vue-property-decorator";
+import { NewsInterface, emptyNews } from "@/components/news";
+import Modal from "@/components/Modal.vue";
 
-@Component
+@Component({
+  components: {
+    Modal
+  }
+})
 export default class Results extends Vue {
-  list: any = [];
-  dialog = false;
-  newsDetails = {};
-  @Prop() private data!: any;
+  list: Array<NewsInterface> = [];
+  newsDetails: NewsInterface = emptyNews;
+  showModal = false;
+
+  get modalData() {
+    return this.newsDetails;
+  }
+
+  set modalData(v: NewsInterface) {
+    this.newsDetails = v; 
+  }
+
+  handleModal(v: boolean) {
+    this.showModal = v;
+  }
+
+  @Prop() private data!: Array<NewsInterface>;
   @Watch("data", { deep: true })
-  onChange(v: any) {
+  onChange(v: Array<NewsInterface>) {
     this.list = v;
   }
-  handleDetails(item: any) {
-    this.dialog = true;
-    this.newsDetails = item;
+  handleDetails(item: NewsInterface) {
+    this.modalData = item;
+    this.showModal = true;
   }
 }
 </script>

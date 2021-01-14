@@ -11,7 +11,7 @@ import Filters from '@/components/Filters/Filters.vue';
 import Results from '@/components/Results.vue';
 import { Country, CountryInterface, Codes, Names } from "@/components/Filters/countries";
 import { Categories } from "@/components/Filters/categories";
-import { NewsInterface } from "@/components/Filters/news";
+import { NewsInterface } from "@/components/news";
 
 @Component({
   components: {
