@@ -1,6 +1,6 @@
 <template>
   <v-dialog v-model="dialog" max-width="500">
-      <v-card>
+      <v-card v-click-outside="handleClickOutside">
         <v-img :src="NewsDetails.urlToImage" height="300px"></v-img>
         <v-card-title class="headline grey lighten-2">
           {{ NewsDetails.title }}
@@ -33,7 +33,12 @@ export default class Modal extends Vue {
 
     handleClick() {
         this.dialog = false;
-        this.$emit("closeModal", false)
+        this.$emit("closeModal")
+        console.log("click")
+    }
+
+    handleClickOutside() {
+        console.log("click outside")
     }
 
     @Watch("ShowModal")

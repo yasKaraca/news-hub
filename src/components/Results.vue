@@ -44,8 +44,9 @@ export default class Results extends Vue {
     this.newsDetails = v; 
   }
 
-  handleModal(v: boolean) {
-    this.showModal = v;
+  handleModal() {
+    this.showModal = false;
+    console.log("event listener")
   }
 
   @Prop() private data!: Array<NewsInterface>;
