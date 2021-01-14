@@ -38,7 +38,9 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import store from "@/store/index";
 import Home  from '@/views/Home.vue';
+import { Country, CountryInterface, ACodes, ANames } from "@/components/Filters/countries.ts";
 
 export default Vue.extend({
   name: 'App',
@@ -49,6 +51,6 @@ export default Vue.extend({
 
   data: () => ({
     //
-  }),
+  })
 });
 </script>
