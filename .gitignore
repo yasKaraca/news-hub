@@ -4,6 +4,7 @@ node_modules
 
 
 # local env files
+# sould contain .env but it does not for easy sharing
 .env.local
 .env.*.local
 
