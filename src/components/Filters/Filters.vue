@@ -71,7 +71,7 @@ export default class Filters extends Vue {
       if (this.QueryValue) {
         params = `${params}&q=${this.QueryValue}`
       }
-      const url =`http://newsapi.org/v2/top-headlines${params}&apiKey=23e24bad61234e3f8db91d0ee67ae75f`
+      const url =`${process.env.VUE_APP_API_URL}${params}&apiKey=${process.env.VUE_APP_API_KEY}`
       axios({
         method: 'get',
         url: url
